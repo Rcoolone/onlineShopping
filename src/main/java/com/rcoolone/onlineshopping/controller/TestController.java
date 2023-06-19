@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/abcd/{text}")
     public String helloWorld(@PathVariable("text") String abcd) {
-        return "your input is:" + abcd;
+        return "your input is :" + abcd;
     }
 }
